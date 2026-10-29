@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Punta del Este — PDE</title>
+  <meta name="description" content="Punta del Este, Uruguay. Playas, gastronomía, la Península y todo lo que hace especial a este destino. Reservá tu estadía." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="canonical" href="https://pde-apartos.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Punta del Este. Tu próximo lugar favorito." />
+  <meta property="og:description" content="Playas, atardeceres, gastronomía y el encanto de la Península." />
+  <meta property="og:image" content="assets/img/hero-cityscape.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='serif' font-size='20' fill='%23fff'%3EP%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700;6..96,900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top">PDE</a>
+      <div class="header-actions">
+        <div class="lang-switcher" role="group" aria-label="Idioma">
+          <button type="button" data-lang="es" class="lang-btn is-active">ES</button>
+          <button type="button" data-lang="en" class="lang-btn">EN</button>
+          <button type="button" data-lang="ru" class="lang-btn">RU</button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <picture>
+          <source srcset="assets/img/hero-cityscape.webp" type="image/webp" />
+          <img src="assets/img/hero-cityscape.jpg" alt="Punta del Este" loading="eager" fetchpriority="high" />
+        </picture>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-left">
+          <p class="hero-eyebrow" data-i18n="hero.eyebrow">Punta del Este · Uruguay</p>
+          <h1 id="hero-title">
+            <span class="hero-line">Punta</span>
+            <span class="hero-line hero-line--italic">del Este.</span>
+          </h1>
+          <p class="hero-sub" data-i18n="hero.sub">Días de playa, atardeceres junto al mar, buena gastronomía y todo el encanto de la Península.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://airbnb.com/h/apartos" target="_blank" rel="noopener noreferrer" data-i18n="hero.book">Reservar apartamento</a>
+            <a class="btn btn-ghost" href="https://maldonado.gub.uy/programacion-cultural" target="_blank" rel="noopener noreferrer" data-i18n="hero.program">Программа развлечений</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <h3 class="hero-events-title" data-i18n="hero.eventsTitle">События в Пунте</h3>
+          <div class="hero-events" id="hero-events">
+            <div class="hero-events-track" id="hero-events-track"></div>
+          </div>
+          <a class="hero-events-more" href="https://maldonado.gub.uy/actividades" target="_blank" rel="noopener noreferrer" data-i18n="hero.eventsMore">Ver todos los eventos en Maldonado →</a>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span>34°58′S 54°57′W</span>
+        <span>Est. 1829</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">PDE</p>
+        <p class="footer-copy" data-i18n="footer.copy">Un destino para vivir.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://maldonado.gub.uy/actividades" target="_blank" rel="noopener noreferrer">Agenda</a>
+        <a href="https://maldonado.gub.uy/programacion-cultural" target="_blank" rel="noopener noreferrer">Cultura</a>
+        <a href="https://airbnb.com/h/apartos" target="_blank" rel="noopener noreferrer">Airbnb</a>
+      </div>
+      <div class="footer-credits">
+        <p data-i18n="footer.credits">Imágenes: Wikimedia Commons.</p>
+        <p>© <span id="year"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/events.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

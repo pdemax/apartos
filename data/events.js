@@ -1,0 +1,41 @@
+window.PDE_EVENTS = {
+  "source": "https://maldonado.gub.uy/actividades",
+  "calendar": "https://www.maldonado.gub.uy/node/59970",
+  "culturalProgramming": "https://maldonado.gub.uy/programacion-cultural",
+  "lastUpdated": "2026-10-29",
+  "note": "Datos mantenidos manualmente a partir de la agenda oficial de la Intendencia Departamental de Maldonado y noticias oficiales. No se actualizan automáticamente.",
+  "events": [
+    {
+      "title": "GP PDE \"Gran Premio Punta del Este\" 2026",
+      "date": "2026-11-01",
+      "venue": "Punta del Este",
+      "category": "Deportes",
+      "image": "assets/img/karting.jpg",
+      "url": "https://maldonado.gub.uy/actividades/gp-pde-gran-premio-punta-del-este-2026-0"
+    },
+    {
+      "title": "54º Campeonato Sudamericano de Optimist",
+      "date": "2026-11-01",
+      "venue": "Yacht Club Punta del Este",
+      "category": "Vela",
+      "image": "assets/img/optimist.jpg",
+      "url": "https://2026southamericans.optiworld.org/"
+    },
+    {
+      "title": "IRONMAN 70.3 Punta del Este",
+      "date": "2027-03-07",
+      "venue": "Punta del Este",
+      "category": "Deportes",
+      "image": "assets/img/ironman.png",
+      "url": "https://www.ironman.com/races/im703-punta-del-este"
+    },
+    {
+      "title": "Unipersonal \"Las cosas que nunca me contaron\" (Franklin Rodríguez)",
+      "date": "2026-10-31",
+      "venue": "Sala Cantegril, Punta del Este",
+      "category": "Teatro",
+      "image": "assets/img/unipersonal.jpg",
+      "url": "https://maldonado.gub.uy/noticias/un-nuevo-unipersonal-llega-sala-cantegril"
+    }
+  ]
+};
